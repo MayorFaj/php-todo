@@ -72,7 +72,7 @@ pipeline {
                     "files": [
                       {
                        "pattern": "php-todo.zip",
-                       "target": "http://18.116.60.207:8082/php-todo",
+                       "target": "generic-local/php-todo",
                        "props": "type=zip;status=ready"
 
                        }
